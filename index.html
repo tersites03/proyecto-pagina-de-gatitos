@@ -60,32 +60,46 @@
                 <div id="formularios_formulario_1" class="formularios_formularios1">
                     <!--form todo los elementos que estan dentro de los tags forman parte del formulario en este caso el input tipo texto donde el usuario puede escribir y el button con el  tipo submit para enviar-->
                     <!-- en el form se debe colocar la direccion a que nos va a dar la respuesta del envio del taxto del input, por medio del button-->
-                    <form accion="/enviar-respuesta" target="_blanck" rel="noopener noreferrer" >
-                        <!-- poniendo el placeholder atributo que deja ub¿ntexto como ingrese su usuario o contraseña-->
-                        <!--el atributo required sirve para que el campo del input se deba llenar obligatoriamente para que pueda enviarse y obtener respuesta-->
+                    <form accion="/enviar-respuesta">
+                        <!--casillas de verificación (checklist)-->
+                    <label for="Cariñoso">
+                        <input type="checkbox" id="Cariñoso" name="personalidad" checked value="cariñoso">Cariñoso.</label> <br>
+                    <label for="Perezoso">
+                        <input type="checkbox" id="Perezoso" name="personalidad" value="Perezoso">Perezoso
+                    <label><br>
+                    <label for="Energico">
+                        <input type="checkbox" id="Energico" name="personalidad" value="Energico"> Enérgico.
+                    </label><br>
+                    <!--el atributo required sirve para que el campo del input se deba llenar obligatoriamente para que pueda enviarse y obtener respuesta-->
+
                         <input placeholder="ingresela URL de la foto de tu gato" type="text" required>
                         <br>
                         <br>
-                        <button type="submit">Enviar</button>
+                        <button type="submit">Enviar</button><br>
+
                         <!--input tipo radio pone un redondel alq ue se le dar la opción de activo o desactivo o para elegir la opcin a la que se refiere por ejemplo lugar uno o lugar 2-->
                         <!--el tag lebael, rodenado elinput hace que podamos selecionar la opcióm del input tipo radio, a tarvez del texto de la opción-->
-                        <h2>Su gato prefiere estar en el</h2>
+
+                        <h2>Su gato prefiere estar en el</h2><br>
+
                         <!--los Botones de radio son opciones -->
-                        <label for="interior"><input id="interior" type="radio" name="interior-exterior">Interior</label>
+                        <label for="interior">
+                            <input id="interior" type="radio" name="interior-exterior" checked value="interior">Interior
+                        </label>
+
                         <br><!--salto de linea-->
 
                         <!--el atributo name sirve para poner todod los input del tipo radio en una grupo, asi solo se puede escoger una opción, para esto el grupo de input debe compartir el mismo nombre del atributo name; ejemplo input 1 name="numeros", input 2 name="numeros"-->
-                        <label for="exterior"><input id="exterior"type="radio"   name="interior-exterior">Exterior</label>
+                        <label for="exterior"><input id="exterior"type="radio"   name="interior-exterior" value="exterior">Exterior</label>
+
                         
                     </form>
 
                 </div>
 
-                <div id="formularios2" class="formularios_2">
-                    <form id="formulario2" class="formulario_2">
-
-                    </form>
-                </div>
+                <!--<div id="formularios2" class="formularios_2">
+                    <form id="formulario2" class="formulario_2"></form>
+                </div>-->
 
             </section>
 
