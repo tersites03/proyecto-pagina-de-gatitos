@@ -63,14 +63,19 @@
                     <form accion="/enviar-respuesta" target="_blanck" rel="noopener noreferrer" >
                         <!-- poniendo el placeholder atributo que deja ub¿ntexto como ingrese su usuario o contraseña-->
                         <!--el atributo required sirve para que el campo del input se deba llenar obligatoriamente para que pueda enviarse y obtener respuesta-->
-                        <input placeholder="ingresela URL de la foto de tu gato" type="text" required>                        
+                        <input placeholder="ingresela URL de la foto de tu gato" type="text" required>
+                        <br>
+                        <br>
                         <button type="submit">Enviar</button>
                         <!--input tipo radio pone un redondel alq ue se le dar la opción de activo o desactivo o para elegir la opcin a la que se refiere por ejemplo lugar uno o lugar 2-->
                         <!--el tag lebael, rodenado elinput hace que podamos selecionar la opcióm del input tipo radio, a tarvez del texto de la opción-->
                         <h2>Su gato prefiere estar en el</h2>
                         <!--los Botones de radio son opciones -->
-                        <label for="interior"><input id="interior" type="radio">Interior</label>
-                        <label for="exterior"><input id="exterior"type="radio">Exterior</label>
+                        <label for="interior"><input id="interior" type="radio" name="interior-exterior">Interior</label>
+                        <br><!--salto de linea-->
+
+                        <!--el atributo name sirve para poner todod los input del tipo radio en una grupo, asi solo se puede escoger una opción, para esto el grupo de input debe compartir el mismo nombre del atributo name; ejemplo input 1 name="numeros", input 2 name="numeros"-->
+                        <label for="exterior"><input id="exterior"type="radio"   name="interior-exterior">Exterior</label>
                         
                     </form>
 
