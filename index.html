@@ -1,113 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>APP de Gatos</title>
-</head>
-<body>
-    <main>
-            <headear>
-                <h1>App de Gatos</h1>
-            </headear>
-            <section>
-                <div>
-                        <h2>AppDeGatos</h2>
-                        <h3>Imagenes de Gatos:</h3>
-                        <p>Haz click aquí para ver más <a href="https://bit.ly/fcc-relaxing-cat" target="_blank" rel="noopener noreferrer">imágenes de gatos.</a></p>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>APP de Gatos</title>
+        
+    </head>
 
-                        <!--toDo : agregar enlace de imagenes de gatos-->
-                    
-                        <img src="/Assets/gatitos.jpg" alt="grupo de gatos">
-                    <a href="https://bit.ly/fcc-relaxing-cat" target="_blank" rel="noopener noreferrer"><img src="https://bit.ly/fcc-relaxing-cat" alt="gatito relax"></a>             
-                </div>  
-            </section>      
+    <body>
+        <main>
+                <headear>
+                    <h1>App de Gatos</h1>
+                </headear>
+                <section>
+                    <div>
+                            <h2>AppDeGatos</h2>
+                            <h3>Imagenes de Gatos:</h3>
+                            <p>Haz click aquí para ver más <a href="https://bit.ly/fcc-relaxing-cat" target="_blank" rel="noopener noreferrer">imágenes de gatos.</a></p>
 
-            
-            <section id="listas " class="listas1">
-                <!--usando el tag <hr> genera una linea horizontal-->
-                <hr>
-
-            <!--Empezamos con listas no ordenadas-->
-            <h3>Lista de Gatos</h3>
-            <!--usando el tag <em> para texto en cursiva-->
-            <p>Cosas que los gatos <em>aman</em>:</p>
-            <ul>
-                <li>El sol</li>
-                <li>El atún</li>
-                <li>dormir</li>
-                <li>acicalarse</li>
-                <li>las cajas</li>
-                <li>catnit</li>
-                <a href="#gatitos"<li>otros gatos</li></a>
-            </ul>
-            <img id="gatitos" src="/Assets/gatitos2.jpeg" alt="grupo de gatitos">
-            
-            <!--Listas ordenadas-->
-            <!--usando el tag <strong> para btexto en negritas-->
-            <p> cosas que los gatos <strong>detestan</strong>:</p>
-            <ol>
-                <li>los citricos</li>
-                <li> que los molesten </li>
-                <li>taratamiento antipulgas</li>
-                <li>truenos</li>
-                <!--Usanado el tag <s> para texto tacahdo-->
-                <li><s>perros</s></li>
-            <img id="perritos" src="/Assets/perros.jpeg" alt="grupo de perritos">
-            </ol>
-            </section>
-            <section id="formularios"class= "formularios">
-                <div id="formularios_formulario_1" class="formularios_formularios1">
-                    <!--form todo los elementos que estan dentro de los tags forman parte del formulario en este caso el input tipo texto donde el usuario puede escribir y el button con el  tipo submit para enviar-->
-                    <!-- en el form se debe colocar la direccion a que nos va a dar la respuesta del envio del taxto del input, por medio del button-->
-                    <form accion="/enviar-respuesta">
-                        <!--casillas de verificación (checklist)-->
-                    <label for="Cariñoso">
-                        <input type="checkbox" id="Cariñoso" name="personalidad" checked value="cariñoso">Cariñoso.</label> <br>
-                    <label for="Perezoso">
-                        <input type="checkbox" id="Perezoso" name="personalidad" value="Perezoso">Perezoso
-                    <label><br>
-                    <label for="Energico">
-                        <input type="checkbox" id="Energico" name="personalidad" value="Energico"> Enérgico.
-                    </label><br>
-                    <!--el atributo required sirve para que el campo del input se deba llenar obligatoriamente para que pueda enviarse y obtener respuesta-->
-
-                        <input placeholder="ingresela URL de la foto de tu gato" type="text" required>
-                        <br>
-                        <br>
-                        <button type="submit">Enviar</button><br>
-
-                        <!--input tipo radio pone un redondel alq ue se le dar la opción de activo o desactivo o para elegir la opcin a la que se refiere por ejemplo lugar uno o lugar 2-->
-                        <!--el tag lebael, rodenado elinput hace que podamos selecionar la opcióm del input tipo radio, a tarvez del texto de la opción-->
-
-                        <h2>Su gato prefiere estar en el</h2><br>
-
-                        <!--los Botones de radio son opciones -->
-                        <label for="interior">
-                            <input id="interior" type="radio" name="interior-exterior" checked value="interior">Interior
-                        </label>
-
-                        <br><!--salto de linea-->
-
-                        <!--el atributo name sirve para poner todod los input del tipo radio en una grupo, asi solo se puede escoger una opción, para esto el grupo de input debe compartir el mismo nombre del atributo name; ejemplo input 1 name="numeros", input 2 name="numeros"-->
-                        <label for="exterior"><input id="exterior"type="radio"   name="interior-exterior" value="exterior">Exterior</label>
-
+                            <!--toDo : agregar enlace de imagenes de gatos-->
                         
-                    </form>
+                            <img src="/Assets/gatitos.jpg" alt="grupo de gatos">
+                        <a href="https://bit.ly/fcc-relaxing-cat" target="_blank" rel="noopener noreferrer"><img src="https://bit.ly/fcc-relaxing-cat" alt="gatito relax"></a>             
+                    </div>  
+                </section>      
+
+                
+                <section id="listas " class="listas1">
+                    <!--usando el tag <hr> genera una linea horizontal-->
+                    <hr>
+
+                <!--Empezamos con listas no ordenadas-->
+                <h3>Lista de Gatos</h3>
+                
+                <div>
+                    <p>Cosas que los gatos <em>aman</em>:</p>
+                    <ul>
+                        <li>El sol</li>
+                        <li>El atún</li>
+                        <li>dormir</li>
+                        <li>acicalarse</li>
+                        <li>las cajas</li>
+                        <li>catnit</li>
+                        <a href="#gatitos"<li>otros gatos</li></a>
+                    </ul>
+                    <img id="gatitos" src="/Assets/gatitos2.jpeg" alt="grupo de gatitos">
+                    
+                    <!--Listas ordenadas-->
+                    <!--usando el tag <strong> para btexto en negritas-->
+                    <p> cosas que los gatos <strong>detestan</strong>:</p>
+                    <ol>
+                        <li>los citricos</li>
+                        <li> que los molesten </li>
+                        <li>taratamiento antipulgas</li>
+                        <li>truenos</li>
+                        <!--Usanado el tag <s> para texto tacahdo-->
+                        <li><s>perros</s></li>
+                        <img id="perritos" src="/Assets/perros.jpeg" alt="grupo de perritos">
+                    </ol>
 
                 </div>
+                <!--usando el tag <em> para texto en cursiva-->
+                
+                </section>
+                <section id="formularios"class= "formularios">
+                    <div id="formularios_formulario_1" class="formularios_formularios1">
+                        <!--form todo los elementos que estan dentro de los tags forman parte del formulario en este caso el input tipo texto donde el usuario puede escribir y el button con el  tipo submit para enviar-->
+                        <!-- en el form se debe colocar la direccion a que nos va a dar la respuesta del envio del taxto del input, por medio del button-->
+                        <form accion="/enviar-respuesta">
+                            <!--casillas de verificación (checklist)-->
+                        <label for="Cariñoso">
+                            <input type="checkbox" id="Cariñoso" name="personalidad" checked value="cariñoso">Cariñoso.</label> <br>
+                        <label for="Perezoso">
+                            <input type="checkbox" id="Perezoso" name="personalidad" value="Perezoso">Perezoso
+                        <label><br>
+                        <label for="Energico">
+                            <input type="checkbox" id="Energico" name="personalidad" value="Energico"> Enérgico.
+                        </label><br>
+                        <!--el atributo required sirve para que el campo del input se deba llenar obligatoriamente para que pueda enviarse y obtener respuesta-->
 
-                <!--<div id="formularios2" class="formularios_2">
-                    <form id="formulario2" class="formulario_2"></form>
-                </div>-->
+                            <input placeholder="ingresela URL de la foto de tu gato" type="text" required>
+                            <br>
+                            <br>
+                            <button type="submit">Enviar</button><br>
 
-            </section>
+                            <!--input tipo radio pone un redondel alq ue se le dar la opción de activo o desactivo o para elegir la opcin a la que se refiere por ejemplo lugar uno o lugar 2-->
+                            <!--el tag lebael, rodenado elinput hace que podamos selecionar la opcióm del input tipo radio, a tarvez del texto de la opción-->
 
-            <footer>               
+                            <h2>Su gato prefiere estar en el</h2><br>
 
-            </footer>
-    </main>
+                            <!--los Botones de radio son opciones -->
+                            <label for="interior">
+                                <input id="interior" type="radio" name="interior-exterior" checked value="interior">Interior
+                            </label>
 
-    <script></script>
-</body>
+                            <br><!--salto de linea-->
+
+                            <!--el atributo name sirve para poner todod los input del tipo radio en una grupo, asi solo se puede escoger una opción, para esto el grupo de input debe compartir el mismo nombre del atributo name; ejemplo input 1 name="numeros", input 2 name="numeros"-->
+                            <label for="exterior"><input id="exterior"type="radio"   name="interior-exterior" value="exterior">Exterior</label>
+
+                            
+                        </form>
+
+                    </div>
+
+                    <!--<div id="formularios2" class="formularios_2">
+                        <form id="formulario2" class="formulario_2"></form>
+                    </div>-->
+
+                </section>
+                
+        </main>
+        <!--footer va por fuera del <main>-->
+        <footer>
+            <p><small>Derechos de Autor <a href="https://github.com/tersites03/proyecto-pagina-de-gatitos.git" target="_blank" rel="noopener noreferrer">yo</a></small></p>
+        </footer>
+
+        <script></script>
+    </body>
 </html>
