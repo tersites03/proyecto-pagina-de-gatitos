@@ -1,0 +1,18 @@
+*{
+  background-color: bisque;
+  
+}
+.listas1_listas{
+  color:chocolate
+}
+li{
+  color:blue;
+  font-size: 15px;
+  font-family: "Dancing Script", cursive;
+}
+.p{
+  font-size: 15px;
+  color: red;
+  font-family: "Dancing Script", cursive;
+
+}
