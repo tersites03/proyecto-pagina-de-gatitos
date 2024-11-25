@@ -4,26 +4,28 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>APP de Gatos</title>
+        <link href="reset.css" rel="stylesheet"
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ga+Maamli&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
     </head>
 
     <body id="cuerpo" class="cuerpo">
         <main>
-                <headear id="cabecera" class="cabecera">
-                    <h1 id="titulo" class="titulo">App de Gatos</h1>
-                </headear>
-                <section id="imagenes_de_gatos" Class="imagenes_de_gatos">
-                    <div>
-                        <h3 id="imagenes_de_gatos_titulo" class="imagenes_de_gatos_titulo">Imagenes de Gatos:</h3>
-                            <p id="imagenes_de_gatos_parrafo">Haz click aquí para ver más <a href="https://bit.ly/fcc-relaxing-cat" target="_blank" rel="noopener noreferrer">imágenes de gatos.</a></p>
+            <headear id="cabecera" class="cabecera1">
+                    <h1 id="titulo_cabecera" class="titulo_cabecera1">App de Gatos</h1>
+            </headear>
+            <section id="imagenes_de_gatos" Class="imagenes_de_gatos1">
+                <div id="gatos1" class="gatos1">
+                    <h3 id="imagenes_de_gatos_titulo" class="imagenes_de_gatos_titulo">Imagenes de Gatos:</h3>
+                    <p id="imagenes_de_gatos_parrafo">Haz click aquí para ver más <a href="https://bit.ly/fcc-relaxing-cat" target="_blank" rel="noopener noreferrer">imágenes de gatos.</a></p>
 
-                            <!--toDo : agregar enlace de imagenes de gatos-->
-                        
-                            <img id="imagenes_de_gatos_imagen_gatitos" src="/Assets/gatitos.jpg" alt="grupo de gatos" class="imagenes_de_gatos_gatitos">
-                        <a href="https://bit.ly/fcc-relaxing-cat" target="_blank" rel="noopener noreferrer"><img id="imagenes_de_gatos_gatito" class="imagenes_de_gatos_gatito"src="https://bit.ly/fcc-relaxing-cat" alt="gatito relax"></a>             
+                    <!--toDo : agregar enlace de imagenes de gatos-->
+                    
+                    <img id="imagenes_de_gatos_imagen_gatitos" src="/Assets/gatitos.jpg" alt="grupo de gatos" class="imagenes_de_gatos_gatitos">
+                    <a href="https://bit.ly/fcc-relaxing-cat" target="_blank" rel="noopener noreferrer">
+                    <img id="imagenes_de_gatos_gatito" class="imagenes_de_gatos_gatito"src="https://bit.ly/fcc-relaxing-cat" alt="gatito relax"></a>             
                     </div>  
                 </section>      
 
@@ -34,33 +36,35 @@
                 <!--Empezamos con listas no ordenadas-->
                     <h3>Lista de Gatos</h3>
                 
-                <div id="listas_listas1" class="listas1_listas">
-                    <p>Cosas que los gatos <em>aman</em>:</p>
-                    <ul Id="lista_desordenada" class="lista_desordenada">
-                        <li>El sol</li>
-                        <li>El atún</li>
-                        <li>dormir</li>
-                        <li>acicalarse</li>
-                        <li>las cajas</li>
-                        <li>catnit</li>
-                        <a href="#gatitos"<li>otros gatos</li></a>
-                    </ul>
-                    <img id="gatitos" src="/Assets/gatitos2.jpeg" alt="grupo de gatitos">
+                    <div id="listas_listas1" class="listas1_listas">
+                        <p id>Cosas que los gatos <em>aman</em>:</p>
+                        <ul Id="listas_aman_los_gatos" class="lista1_aman_los_gatos1">
+                            <li>El sol</li>
+                            <li>El atún</li>
+                            <li>dormir</li>
+                            <li>acicalarse</li>
+                            <li>las cajas</li>
+                            <li>catnit</li>
+                            <a href="#gatitos"<li>otros gatos</li></a>
+                        </ul>
+                        <img id="gatitos" class="imagen_gatitos" src="/Assets/gatitos2.jpeg" alt="grupo de gatitos">
+                    </div>
                     
                     <!--Listas ordenadas-->
                     <!--usando el tag <strong> para btexto en negritas-->
-                    <p> cosas que los gatos <strong>detestan</strong>:</p>
-                    <ol>
-                        <li>los citricos</li>
-                        <li> que los molesten </li>
-                        <li>taratamiento antipulgas</li>
-                        <li>truenos</li>
-                        <!--Usanado el tag <s> para texto tacahdo-->
-                        <li><s>perros</s></li>
-                    </ol><br>
-                    <img id="perritos" src="/Assets/perros.jpeg" alt="grupo de perritos">
+                    <div id="listas_detestan_los_gatos" class="listas_detestan_los_gatos1">
+                            <p> cosas que los gatos <strong>detestan</strong>:</p>
+                        <ol>
+                            <li>los citricos</li>
+                            <li> que los molesten </li>
+                            <li>taratamiento antipulgas</li>
+                            <li>truenos</li>
+                            <!--Usanado el tag <s> para texto tacahdo-->
+                            <li><s>perros</s></li>
+                        </ol><br>
+                        <img id="perritos" class="imagen_perritos" src="/Assets/perros.jpeg" alt="grupo de perritos">
+                    </div>
 
-                </div>
                 <!--usando el tag <em> para texto en cursiva-->
                 
                 </section>
